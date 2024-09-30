@@ -2,7 +2,7 @@
 # Date of Creation: September 26, 2024
 # Purpose: A program that generates a diamond shape using the "*" character, based on an odd integer "n".
 
-n = 5  # Change this value to test with different odd integers
+n = int(input("Please enter an odd integer: ")) #ask user to enter an odd integer
 
 # Check if n is an odd integer
 if n % 2 == 0:
