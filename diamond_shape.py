@@ -11,5 +11,10 @@ else:
     # Calculate the number of rows for the top half and the bottom half
     rows = n // 2 + 1
     
-# Print the top half of the diamond
+    # Print the top half of the diamond
+    for i in range(rows):
+        stars = 2 * i + 1  # Number of stars in the current row
+        spaces = rows - i - 1  # Number of leading spaces
+        print(' ' * spaces + '*' * stars)
+        
 # Print the bottom half of the diamond
